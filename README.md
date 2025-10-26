@@ -9,9 +9,9 @@ const char* ssid = "BAJPAI_2.4Ghz";
 const char* password = "44444422";
 
 // Telegram Bot Token and your chat ID
-#define BOT_TOKEN "8024400126:AAEumRTzC-gFiB0nsxsjeIA5Wm_Qx0GvBl4"
-#define ADMIN_CHAT_ID "1839775992"    // Replace with your own Telegram user ID
-#define LOGIN_PASSWORD "4123"     // Password for guests
+#define BOT_TOKEN ""
+#define ADMIN_CHAT_ID ""    // Replace with your own Telegram user ID
+#define LOGIN_PASSWORD ""     // Password for guests
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
